@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Hangman</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+    <header class = "centered">
+        <h2>Hangman</h2>
+    </header>
+        <nav>
+            <ul id = "navlist">
+                <li>
+                    <a href = "final.html">
+                        <span>
+                            Back to Nav
+                        </span>
+                </a>
+                </li>
+                <li>
+                    <a href = "boards.html">
+                        <span>
+                        Objectives
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href = "strings.html">
+                        <span>
+                        Palindrome Checker
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href = "login.html">
+                        <span>
+                        Login
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href = "index.html">
+                        <span>
+                        Moving Image
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href = "table.html">
+                        <span>
+                        Table
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    <div id="endgame" class = "centered"></div>
+    <div id="restartgame" class = "centered"><button id="restartbutton">restart game</button></div>
+    <!--div that displays the underscores and letters eventually spelling the word of the game-->
+    <div id="word" class = "centered"></div>
+    <!--input box for letter guess-->
+    <div class = "centered"><input id="letter" type="text" maxlength="1" required></div>
+    <!--button to submit letter guess-->
+    <div class = "centered"><button id="letterGuess">Guess</button></div>
+    <!--Wrong letters display here after guessing-->
+    <div id="wrongLetters" class = "centered"></div>
+    <div class = "centered">Guesses:<span id="guesses"></span></div>
+    <div class = "centered">Health: <span id="health"></span></div>
+    <footer class = "centered">
+        <p>
+            Michael Hagstrom
+        </br>
+            University of Advancing Technology
+        </br>
+        2625 W Baseline Rd
+        </br>
+        Tempe, AZ 85283
+        </br>
+        </p>
+    </footer>
+</body>
+    <script src="game.js"></script>
+</html>

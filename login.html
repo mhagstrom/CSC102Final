@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login for Final Project</title>
+    <link rel = "stylesheet" href="final.css">
+</head>
+<body>
+    <header class = "centered">
+        <h2>Login</h2>
+    </header>
+        <nav>
+            <ul id = "navlist">
+                <li>
+                    <a href = "final.html">
+                        <span>
+                            Back to Nav
+                        </span>
+                </a>
+                </li>
+                    <li>
+                        <a href = "boards.html">
+                            <span>
+                            Objectives
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "strings.html">
+                            <span>
+                            Palindrome Checker
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "JavascriptGame.html">
+                            <span>
+                            Hangman
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "index.html">
+                            <span>
+                            Moving Image
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "table.html">
+                            <span>
+                            Table
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+        </nav>
+    <div id = "palindromeauth" class = "centered">
+        First Name: <input type = "text" id = "firstname" required/>
+        Last Name: <input type = "text" id = "lastname" required/>
+        Zip: <input inputmode = "numeric" id = "zip" required/>
+
+        <input type = "submit" onclick = "checkCreds();"/>
+    </div>
+    <footer class = "centered">
+        <p>
+            Michael Hagstrom
+        </br>
+            University of Advancing Technology
+        </br>
+        2625 W Baseline Rd
+        </br>
+        Tempe, AZ 85283
+        </br>
+        </p>
+    </footer>
+</body>
+<script src="strings.js"></script>
+</html>
